@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baya Resto</title>
+
+    <link href="#" rel="icon">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link href="assets/css/style.css" rel="stylesheet">
+    <!-- EmailJs -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init("_PKmnIxITKq5U79zM");
+    })();
+    </script>
+</head>
+<body>
+    <header id="header" class="fixed-top d-flex align-items-center"> 
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between"> 
+            <a href="#" class="logo me-auto me-lg-0"><img src="assets/images/food-logo.png" alt="logo resto"> </a>  
+
+            <nav id="navbar" class="navbar order-last order-lg-0">
+                <ul>         
+                    <li><a class="nav-link scrollto " href="#hero">Home</a></li>           
+                    <li><a class="nav-link scrollto" href="#about">About</a></li>
+                    <li><a class="nav-link scrollto" href="#menu">Menu</a></li>
+                    <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+                    <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+            
+                </ul>  
+                <i class="bi bi-list mobile-nav-toggle">                    
+                </i>             
+            </nav>
+            <a href="#book-a-table" class="book-a-table-btn scrollto d-none d-lg-flex">Book a table</a> 
+        </div> 
+    </header>
+    
+    <main id="main">
+
+        <section id="hero" class="d-flex align-items-center">
+            <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100"> 
+                <div class="row"> 
+                    <div class="col-lg-8"> 
+                        <h1>Welcome to <span>Baya Resto</span></h1> 
+                        <h2>"Indulge in Culinary Delights: Where Every Bite is a Passport to Flavors of Amore!"
+                        </h2> 
+                        <div class="btns"> 
+
+                            <a href="#menu" class="btn-menu animated fadeInUp scrollto">Our Menu</a> 
+                           
+                           <a href="#book-a-table" class="btn-book animated fadeInUp scrollto">Book a Table</a> 
+                           
+                           </div> 
+                    </div> 
+                </div>                 
+            </div> 
+        </section>
+        
+    <!-- ======= About Section ======= --> 
+
+        <section id="about" class="about"> 
+
+            <div class="container" data-aos="fade-up"> 
+    
+                <div class="section-title"> 
+        
+                    <h3>About</h3> 
+        
+                    <p>About Us</p> 
+        
+                </div> 
+        
+                <div class="row gy-4"> 
+        
+                    <div class="col-lg-7 position-relative about-img" style="background-image: url(./assets/images/resto.jpg);" 
+        
+                    data-aos="fade-up" data-aos-delay="150"> 
+        
+                        <div class="call-us position-absolute"> 
+            
+                            <h2>About Restaurant</h2> 
+            
+                        </div> 
+        
+                    </div> 
+        
+                    <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300" 
+        
+                    style="background-color:#cda45e; color:white;"> 
+        
+                        <div class="content ps-0 ps-lg-5"> 
+            
+                            <p style="font-size: 18px; padding:10px;"> 
+            
+                                Welcome to Baya Restaurant, where culinary artistry meets an unparalleled dining experience.
+                                <br>We create unforgettable moments that tantalize taste buds and ignite senses. 
+                                <br> Our journey redefines dining, envisioning a place where sizzling expertly grilled dishes echo guests' excitement.
+            
+                            </p> 
+            
+                        </div> 
+            
+                    </div> 
+        
+                    <hr> 
+                    
+                    <div class="row gy-4"> 
+        
+                        <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300" 
+            
+                            style="background-color:#cda45e; color:white;"> 
+            
+                            <div class="content ps-0 ps-lg-5"> 
+            
+                                <p style="font-size: 18px; padding:10px;"> 
+                                    
+                                    The story of Baya Restaurant is one of culinary innovation and creating lasting dining memories.
+                                    <br>Founded in 2023, it aimed to revolutionize how people enjoy food.
+                                    <br>Culinary enthusiasts established Baya, driven by collective love for exquisite cuisine and an ambition elevate dining.
+                                    <br>Starting humbly, Baya gained recognition for its dedication to using the best locally-sourced ingredients.
+                                    From its modest beging, Baya quickly garned attention for its commitment to sourcing only the finest, locally sourced ingredients.
+                                </p> 
+        
+                            </div> 
+        
+                        </div> 
+        
+                        <div class="col-lg-7 position-relative about-img" style="background-image: url(./assets/images/couverts.jpg) ;" 
+        
+                            data-aos="fade-up" data-aos-delay="150"> 
+        
+                            <div class="call-us position-absolute"> 
+        
+                                <h2>Our History</h2> 
+        
+                            </div> 
+        
+                        </div> 
+        
+                    </div> 
+        
+                    <hr> 
+        
+                    <div class="col-lg-4 position-relative about-img" style="background-image: url(./assets/images/lasagnes-a-la-bolognaise-facile.jpg);" 
+        
+                        data-aos="fade-up" data-aos-delay="150"> 
+        
+                        <div class="call-us position-absolute"> 
+        
+                            <h2>Specific</h2> 
+        
+                        </div> 
+        
+                    </div> 
+        
+                    <div class="col-lg-4 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300" 
+        
+                        style="background-color:#cda45e; color:white;"> 
+        
+                        <div class="content ps-0 ps-lg-5"> 
+            
+                            <p style="font-size: 18px; padding:10px;"> 
+             
+                                Indulge in a symphony of flavors that pay homage to Tunisia's diverse regions.
+                                <br>Our menu is a curated selection of Tunisian hearty dishes and innovation twists.
+                                Freshly made pasta, succulent seafood, melt-in-your-month risotto, wood-fired pizzas and a collection of delicious fast food are just a glimpse of the culinary delights that await.
+                                We are committed to using only the finest quality ingredients, sourced from local farmers markets.
+                            
+                            </p> 
+            
+                        </div> 
+        
+                    </div> 
+        
+                    <div class="col-lg-4 position-relative about-img" style="background-image: url(./assets/images/005d3606-8816-4bf8-8a39-260eae90ce53.jpeg);" 
+        
+                        data-aos="fade-up" data-aos-delay="150"> 
+            
+                        <div class="call-us position-absolute"> 
+            
+                            <h2>Delicacies</h2> 
+            
+                        </div> 
+        
+                    </div> 
+        
+                </div>  
+    
+            </div> 
+    
+        </section> 
+  
+    <!-- End of About Section --> 
+
+    <!-- ======= Menu Section ======= -->
+
+        <section id="menu" class="menu">
+
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+
+                    <h3>Menu</h3>
+
+                    <p>Check our tasty <span>Menu</span></p>
+
+                </div>
+
+            </div>
+
+            <div class="container mt-5">
+
+                <ul class="nav nav-tabs custom-tabs flex-column flex-sm-row justify-content-center" id="galleryTabs"
+                    role="tablist">
+
+                    <li class="nav-item">
+
+                        <a class="nav-link active" id="all-tab" data-toggle="tab" href="#all" role="tab" aria-controls="all"
+                            aria-selected="true">Show All</a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link" id="beverages-tab" data-toggle="tab" href="#beverages" role="tab"
+                            aria-controls="beverages" aria-selected="false">Beverages</a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link" id="lunch-tab" data-toggle="tab" href="#lunch" role="tab" aria-controls="lunch"
+                            aria-selected="false">Lunch</a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link" id="dinner-tab" data-toggle="tab" href="#dinner" role="tab" aria-controls="dinner"
+                            aria-selected="false">Dinner</a>
+
+                    </li>
+
+                </ul>
+
+                <div class="tab-content mt-3" id="galleryTabContent" style="min-height: 300px;">
+
+                    <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
+
+                        <div class="row">
+
+                            <div class="col-lg-6 menu-item filter-all">
+
+                                <div class="menu-content">
+
+                                    <a href="#">Classic Lemonade</a><span>$3.50</span>
+
+                                </div>
+
+                                <div class="menu-ingredients">
+
+                                    Freshly squeezed lemons with a hint of sweetness.
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-6 menu-item filter-all">
+
+                                <div class="menu-content">
+
+                                    <a href="#">Grilled Chicken Sandwich</a><span>$11.50</span>
+
+                                </div>
+
+                                <div class="menu-ingredients">
+
+                                    Juicy grilled chicken breast topped with lettuce, tomato, and mayo, served on a fresh bun.
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-6 menu-item filter-all">
+
+                                <div class="menu-content">
+
+                                    <a href="#">Grilled Filet Mignon</a><span>$25.95</span>
+
+                                </div>
+
+                                <div class="menu-ingredients">
+
+                                    Tender filet mignon steak cooked to perfection, served with a side of garlic mashed potatoes
+                                    and saut饤 asparagus.
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-6 menu-item filter-all">
+
+                                <div class="menu-content">
+
+                                    <a href="#">Beef Lasagna</a><span>$19.95</span>
+
+                                </div>
+
+                                <div class="menu-ingredients">
+
+                                    Fresh beef, special sauce and bechamel sauce, backed with delicious cheeses.
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-6 menu-item filter-all">
+
+                                <div class="menu-content">
+
+                                    <a href="#">Classic Caesar Salad</a><span>$7.85</span>
+
+                                </div>
+
+                                <div class="menu-ingredients">
+
+                                    Crisp romaine lettuce, garlic croutons, shaved parmesan, and tangy Caesar dressing.
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-6 menu-item filter-all">
+
+                                <div class="menu-content">
+
+                                    <a href="#">Marina Pizza</a><span>$18.45</span>
+
+                                </div>
+
+                                <div class="menu-ingredients">
+
+                                    A freshing tomato sauce, cheese, tuna, olives, peppers, onions and basil.
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-6 menu-item filter-all">
+
+                                <div class="menu-content">
+
+                                    <a href="#">Tropical Fuit Smoothie</a><span>$5.25</span>
+
+                                </div>
+
+                                <div class="menu-ingredients">
+
+                                    A refreshing blend of pineapple, mango, and banana with a splash of coconut water.
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="tab-pane fade" id="beverages" role="tabpanel" aria-labelledby="beverages-tab">
+
+                        <div class="row">
+
+                            <div class="col-lg-6 menu-item filter-beverages">
+
+                                <div class="menu-content">
+
+                                    <a href="#">Classic Lemonade</a><span>$3.50</span>
+
+                                </div>
+
+                                <div class="menu-ingredients">
+
+                                    Freshly squeezed lemons with a hint of sweetness.
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-6 menu-item filter-beverages">
+
+                                <div class="menu-content">
+
+                                    <a href="#">Tropical Fuit Smoothie</a><span>$5.25</span>
+
+                                </div>
+
+                                <div class="menu-ingredients">
+
+                                    A refreshing blend of pineapple, mango, and banana with a splash of coconut water.
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="tab-pane fade" id="lunch" role="tabpanel" aria-labelledby="lunch-tab">
+
+                        <div class="row">
+
+                            <div class="col-lg-6 menu-item filter-lunch">
+
+                                <div class="menu-content">
+
+                                    <a href="#">Grilled Chicken Sandwich</a><span>$11.50</span>
+
+                                </div>
+
+                                <div class="menu-ingredients">
+
+                                    Juicy grilled chicken breast topped with lettuce, tomato, and mayo, served on a fresh bun.
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-6 menu-item filter-lunch">
+
+                                <div class="menu-content">
+
+                                    <a href="#">Beef Lasagna</a><span>$19.95</span>
+
+                                </div>
+
+                                <div class="menu-ingredients">
+
+                                    Fresh beef, special sauce and bechamel sauce, backed with delicious cheeses.
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-6 menu-item filter-lunch">
+
+                                <div class="menu-content">
+
+                                    <a href="#">Marina Pizza</a><span>$18.45</span>
+
+                                </div>
+
+                                <div class="menu-ingredients">
+
+                                    A freshing tomato sauce, cheese, tuna, olives, peppers, onions and basil.
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="tab-pane fade" id="dinner" role="tabpanel" aria-labelledby="dinner-tab">
+
+                        <div class="row">
+
+                            <div class="col-lg-6 menu-item filter-dinner">
+
+                                <div class="menu-content">
+
+                                    <a href="#">Grilled Filet Mignon</a><span>$25.95</span>
+
+                                </div>
+
+                                <div class="menu-ingredients">
+
+                                    Tender filet mignon steak cooked to perfection, served with a side of garlic mashed potatoes
+                                    and saut饤 asparagus.
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-6 menu-item filter-dinner">
+
+                                <div class="menu-content">
+
+                                    <a href="#">Classic Caesar Salad</a><span>$7.85</span>
+
+                                </div>
+
+                                <div class="menu-ingredients">
+
+                                    Crisp romaine lettuce, garlic croutons, shaved parmesan, and tangy Caesar dressing.
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- End of Menu Section -->
+    
+        <!-- ======= Book A Table Section ======= --> 
+
+        <section id="book-a-table" class="book-a-table"> 
+
+            <div class="container" data-aos="fade-up"> 
+
+                <div class="section-title"> 
+
+                    <h3>Reservation</h3> 
+
+                    <p>Book a Table</p> 
+
+                </div> 
+
+                <form id="reservation_form" onsubmit="" class="email-form" role="form"> 
+
+                    <div class="row"> 
+
+                    <div class="col-lg-4 col-md-6 form-group"> 
+
+                        <input type="text" name="name" class="form-control" id="name_client" placeholder="Name" data-rule="minlen:4" 
+
+                        data-msg="Please enter at least 4 chars" required> 
+
+                        <div class="name_validate validate">Please enter your name</div> 
+
+                    </div> 
+
+                    <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0"> 
+
+                        <input type="email" class="form-control" name="email" id="email_client" placeholder="Email" data-rule="email" 
+
+                        data-msg="Please enter a valid email" required> 
+
+                        <div class="email_validate validate">Please enter your email</div> 
+
+                    </div> 
+
+                    <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0"> 
+
+                        <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone" data-rule="minlen:4" 
+
+                        data-msg="Please enter at least 4 chars" required> 
+
+                        <div class="phone_validate validate">Please enter your phone number</div> 
+
+                    </div> 
+
+                    <div class="col-lg-4 col-md-6 form-group mt-3"> 
+
+                        <input type="date" name="date" class="form-control" id="date" placeholder="Date" data-rule="minlen:4" 
+
+                        data-msg="Please enter at least 4 chars" required> 
+
+                        <div class="date_validate validate">Please select the date of reservation </div> 
+
+                    </div> 
+
+                    <div class="col-lg-4 col-md-6 form-group mt-3"> 
+
+                        <input type="time" class="form-control" name="time" id="time" required> 
+
+                        <small class="form-text text-muted time">Please enter the time of your visit.</small> 
+
+                    </div> 
+
+                    <div class="col-lg-4 col-md-6 form-group mt-3"> 
+
+                        <input type="number" class="form-control" name="people" id="people" placeholder="No. of people" 
+
+                        data-rule="minlen:1" data-msg="Please enter at least 1 chars" required> 
+
+                        <div class="people_validate validate">Pleaser enter the number of people</div> 
+
+                    </div> 
+
+                    </div> 
+
+                    <div class="form-group mt-3"> 
+
+                    <textarea class="form-control" name="message" id="message_client" rows="5" placeholder="Message"></textarea> 
+
+                    <div class="message_validate validate"></div> 
+
+                    </div> 
+
+                    <div class="text-center">
+
+                        <button type="submit" name="submit" id="bookTable">Book a Table</button> 
+
+                    </div> 
+
+                </form> 
+
+            </div> 
+
+        </section> 
+
+        <!-- End Book A Table Section --> 
+        
+        <!-- ======= Gallery Section ======= -->
+        <section id="gallery" class="gallery">
+
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h3>Gallery</h3>
+                    <p>Some photos from Our Restaurant</p>
+                </div>
+            </div>
+    
+            <div class="container mt-5">
+                
+                <ul class="nav nav-tabs custom-tabs" id="galleryTabs" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="food-tab" data-toggle="tab" href="#food" role="tab" aria-controls="food"
+                        aria-selected="true">Food</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="ambience-tab" data-toggle="tab" href="#ambience" role="tab" aria-controls="ambience"
+                        aria-selected="false">Ambience</a>
+                    </li>
+                </ul>
+    
+                <div class="tab-content mt-3" id="galleryTabContent">
+                    
+                    <div class="tab-pane fade show active" id="food" role="tabpanel" aria-labelledby="food-tab">
+                        
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="./assets/images/getlstd-property-photo.jpg" class="img-fluid">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./assets/images/i1.jpg" class="img-fluid">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./assets/images/lasagnes-a-la-bolognaise-facile.jpg" class="img-fluid">
+                            </div>
+                        </div>
+        
+                        <hr>
+            
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="./assets/images/smoothie.jpg" class="img-fluid">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./assets/images/salade-cesar-allegee.jpeg" class="img-fluid">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./assets/images/196_77.png" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+        
+        
+                    <div class="tab-pane fade" id="ambience" role="tabpanel" aria-labelledby="ambience-tab">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="./assets/images/Live-Music-3-JxmVQE.tmp_.jpg" class="img-fluid">
+                            </div>
+            
+                            <div class="col-md-4">
+                                <img src="./assets/images/feature-4.jpg" class="img-fluid">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./assets/images/d1b649d7a1dd257acec4d62941b366d2_XL.jpg" class="img-fluid">
+                            </div>
+                        </div>
+        
+                        <hr>
+            
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="./assets/images/Argan-Souq-Waqif-Boutique-Hotels-ramadan2023.jpeg" class="img-fluid">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./assets/images/image_1608048_20230226_ob_df45e1_orjz.jpg" class="img-fluid">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./assets/images/mettre-ambiance-soiree.jpg" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+        </section>
+      
+        <!-- End Book A Gallery Section -->
+
+        <!-- ======= Contact Section ======= -->
+        <section id="contact" class="contact">
+           
+            <div class="container" data-aos="fade-up">
+    
+                <div class="section-title">
+                    <h3>Contact</h3>
+                    <p>Contact Us</p>
+                </div>
+
+            </div>
+        
+            <div data-aos="fade-up">
+                <!-- The URL of the restaurant's location. -->
+                <iframe style="border:0; width: 100%; height: 350px;" 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3277.6280112280742!2d10.71308600722662!3d34.76496228459904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1301d32e29b35329%3A0x176cd354dc2b60ed!2sRestaurant%20Lella%20Baya!5e0!3m2!1sfr!2sca!4v1730565548017!5m2!1sfr!2sca"  
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                    
+            </div>
+        
+            <div class="container" data-aos="fade-up">
+        
+                <div class="row mt-5">
+        
+                    <div class="col-lg-4">
+
+                        <div class="info">
+                            <div class="address">
+                                <i class="bi bi-geo-alt-fill"></i>
+                                <h4>Location:</h4>
+                                <p>El Ain Road Km5 next to Amen Bank, Tunisia.</p>
+                            </div>
+            
+                            <div class="open-hours">
+                                <i class="bi bi-clock-fill"></i>
+                                <h4>Open Hours:</h4>
+                                <p>
+                                    Monday - Sunday:<br>
+                                    9:00 AM - 11:00 PM
+                                </p>
+                            </div>
+            
+                            <div class="email">
+                                <i class="bi bi-envelope-at-fill"></i>
+                                <h4>Email:</h4>
+                                <p>contact@baya.org</p>
+                            </div>
+            
+                            <div class="phone">
+                                <i class="bi bi-telephone-inbound-fill"></i>
+                                <h4>Phone:</h4>
+                                <p></p>
+                            </div>
+            
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-8 mt-5 mt-lg-0">
+        
+                        <form id="contact_form" class="email-form">
+                            
+
+                            <div class="row">
+
+                                <div class="col-md-6 form-group">
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                                    <div class="name_validate validate">Enter your name</div>
+                                </div>
+
+                                <div class="col-md-6 form-group mt-3 mt-md-0">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                                    <div class="email_validate validate">Enter your email</div>
+                                </div>
+
+                            </div>
+
+                            <div class="form-group mt-3">
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                                <div class="subject_validate validate">Enter your subject</div>
+                            </div>
+
+                            <div class="form-group mt-3">
+                                <textarea id="message" class="form-control" name="message" rows="8" placeholder="Message" required></textarea>
+                                <div class="message_validate validate">Enter your message</div>
+                            </div>
+                            
+                            <div class="text-center">
+                                <button type="submit" name="submit" id="sendMail" >Send Message</button>
+                            </div>
+                        </form>
+        
+                    </div>
+        
+                </div>
+    
+            </div>
+
+        </section>
+      <!-- End Contact Section -->
+       
+      <!-- ======= Footer ======= --> 
+
+        <footer id="footer"> 
+
+            <div class="footer-top"> 
+
+                <div class="container"> 
+
+                    <div class="row"> 
+
+                        <div class="col-lg-6 col-md-6"> 
+
+                            <div class="footer-info"> 
+
+                                <h2>Baya Resto</h2> 
+
+                                <div class="social-links mt-3"> 
+
+                                    <a href="#"> <i class="bi bi-twitter"></i> </a> 
+                                    <a href="#"> <i class="bi bi-facebook"></i> </a> 
+                                    <a href="#"> <i class="bi bi-instagram"></i> </a> 
+                                    <a href="#"> <i class="bi bi-youtube"></i> </a> 
+
+                                </div> 
+
+                            </div> 
+
+                        </div> 
+
+                        <div class="col-lg-6 col-md-6 footer-links"> 
+
+                            <h5>Useful Links</h5> 
+
+                            <ul> 
+                                <li> <a href="#hero">Home</a></li> 
+                                <li> <a href="#about">About us</a></li> 
+                                <li> <a href="#contact">Contact</a></li> 
+                            </ul> 
+
+                        </div> 
+
+                    </div> 
+
+                </div> 
+
+            </div> 
+
+        </footer> 
+
+    </main>
+
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/contact.js"></script>
+    <script src="assets/js/reservation.js"></script>
+    
+
+</body>
+</html>
